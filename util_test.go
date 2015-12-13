@@ -13,7 +13,7 @@ func TestSquareAt(t *testing.T) {
 		},
 	}
 
-	if grid.SquareAt(0, 1) != White {
+	if grid.SquareAt(0, 1) != Black {
 		t.Error("Expected 0,1 to be Black")
 	}
 
