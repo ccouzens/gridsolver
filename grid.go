@@ -5,8 +5,8 @@ type Square bool
 type Clue []int
 
 const (
-	White Square = iota
-	Black
+	White Square = false
+	Black Square = true
 )
 
 type Grid struct {
